@@ -13,7 +13,7 @@ In this project; <br>
 - You can sum,subtract,divide and multiply the numbers. <br>
 - When calculation is done and pressing "=" button, the result will be shown in the display unit which is above the buttons<br>
 - You can calculate the percentage of the numbers pressing "%" button.<br>
-- You can not press “.” button if the number in the screen includes period.<br>
+- You can not press “.” button if the number in the screen already includes period.<br>
 - You can not press "+,-,*,/" buttons if the numbers in the screen ends with period.<br>
 - You can not press operation sign buttons if there is no number in the screen.<br>
 - You can not press operation sign buttons in a row.<br>
