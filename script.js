@@ -15,10 +15,11 @@ let buttons=document.querySelector(".buttons");
                 if(secondScreen.innerText==0 && secondScreen.innerText.match(/\./)==null){
                     secondScreen.innerHTML=e.target.innerText;
                 }else{
-                    secondScreen.innerHTML+=e.target.innerText;
+                    if(secondScreen.innerText.length<=6){
+                        secondScreen.innerText+=e.target.innerText;
+                    }
+                    }
                 }
-                
-            }
             else if(e.target.classList.contains("dot")){
                 if(secondScreen.innerText && secondScreen.innerText.match(/\./)==null && secondScreen.innerText.length<=5){
                     secondScreen.innerText+=e.target.innerText;
